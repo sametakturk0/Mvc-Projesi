@@ -1,0 +1,38 @@
+﻿ @using MvcProject.Models.Entities
+@model  List<Calısan>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<h2>Calışanlar </h2>
+<a class="btn btn-primary" href="/Calısan/Ekle"> Calısan Ekle </a>
+<h2>Calışanlar Listesi</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Maas</th>
+            <th>DepartmanId</th>
+            <th>güncelle</th>
+            <th>sil</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var calısan in Model)
+        {
+            <tr>
+                <th>@calısan.Id</th>
+                <td>@calısan.Ad</td>
+                <td>@calısan.Soyad</td>
+                <td>@calısan.Maas</td>
+                <td>@calısan.DepartmanId</td>
+
+                <td><a class="btn btn-primary" href="/Calısan/Guncelle/@calısan.Id">Güncelle</a></td>
+                <td><a class="btn btn-primary" href="/Calısan/Sil/@calısan.Id">Sil </a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,31 @@
+﻿@using MvcProject.Models.Entities
+@model  List<Departman>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<h2>Departmanlar</h2>
+<div class="text-center"><button type="submit" class="btn btn-block btn-success text-center btn-dark">Ekle</button></div>
+<a class="btn btn-primary" href="/Departman/Ekle"> Departman Ekle </a>
+<h2>Departman Listesi</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Ad</th>
+            <th>güncelle</th>
+            <th>sil</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var departman in Model)
+        {
+            <tr>
+                <th>@departman.Id</th>
+                <td>@departman.Ad</td>
+                <td><a class="btn btn-primary" href="/Departman/Guncelle/@departman.Id">Güncelle</a></td>
+                <td><a class="btn btn-primary" href="/Departman/Sil/@departman.Id">Sil </a></td>
+            </tr>
+        }
+    </tbody>
+</table>

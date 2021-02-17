@@ -1,0 +1,23 @@
+﻿@model MvcProject.Models.Entities.Departman
+@{
+    ViewBag.Title = "Ekle";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<h2 class="text-center">Departman Ekle</h2>
+@*<h2>Ekle</h2>
+    <form method="post">
+        <div class="from-group">
+            <label>Departman Adı</label>
+            <input type="text" name="Ad" class="from-group"/>
+        </div>
+        <button type="submit" class="btn btn-success">Ekle</button>
+    </form>*@
+@using (Html.BeginForm("Ekle", "Calısan", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Ad)
+        @Html.TextBoxFor(m => m.Ad, new { @class = "form-control" })    
+    </div>
+    @Html.HiddenFor(m => m.Id)
+    <div class="text-center"><button type="submit" class="btn btn-block btn-success text-center btn-dark">Ekle</button></div>
+}

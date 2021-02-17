@@ -1,0 +1,15 @@
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\bin\Debug\MvcCrudroject.Business.dll.config
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\bin\Debug\MvcCrudroject.Business.dll
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\bin\Debug\MvcCrudroject.Business.pdb
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\bin\Debug\EntityFramework.dll
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\bin\Debug\EntityFramework.xml
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\obj\Debug\MvcCrudroject.Business.csprojAssemblyReference.cache
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\obj\Debug\MvcCrudroject.Business.csproj.CoreCompileInputs.cache
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\obj\Debug\MvcCrudroject.Business.csproj.CopyComplete
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\obj\Debug\MvcCrudroject.Business.dll
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\obj\Debug\MvcCrudroject.Business.pdb
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\bin\Debug\MvcCrudProject.Data.dll
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\bin\Debug\MvcCrudProject.Data.pdb
+C:\Users\SAMET ktürk\Desktop\MvcProject\MvcCrudroject.Business\bin\Debug\MvcCrudProject.Data.dll.config

@@ -1,0 +1,31 @@
+﻿@model MvcCrudProject.Data.Entities.Login
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ekle</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        @using (Html.BeginForm("Guncelle", "Login", FormMethod.Post))
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.KullanıcıAdı)
+                @Html.TextBoxFor(m => m.KullanıcıAdı, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Sifre)
+                @Html.TextBoxFor(m => m.Sifre, new { @class = "form-control" })
+            </div>
+            @Html.HiddenFor(m => m.Id)
+            <button type="submit" class="btn btn-success">Guncelle</button>
+        }
+    </div>
+</body>
+</html>
